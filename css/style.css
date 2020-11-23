@@ -1,0 +1,13 @@
+.navigation-menu-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-menu-item:hover,
+.navigation-menu-item:focus {
+  color: #2196f3;
+}
