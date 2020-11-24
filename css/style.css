@@ -15,6 +15,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
+  text-decoration: none;
 }
 
 .logo-blue {
@@ -29,6 +30,7 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .navigation-menu-link:hover,
@@ -140,6 +142,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* .contact-address {
@@ -150,3 +153,30 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 */
+
+/*==========Студия=========*/
+
+.filters-tex {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.projects-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
