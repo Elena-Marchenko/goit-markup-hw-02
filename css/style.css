@@ -72,9 +72,6 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
-.dots {
-  list-style-type: none;
-}
 
 /* features */
 
@@ -134,8 +131,7 @@ body {
 }
 
 /* Footer */
-
-.contact-address,
+.footer-address,
 .footer-contacts {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -143,6 +139,9 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.footer-address {
+  font-weight: normal;
 }
 
 /* .contact-address {
@@ -156,7 +155,7 @@ body {
 
 /*==========Студия=========*/
 
-.filters-link {
+.filters-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -166,13 +165,9 @@ body {
   color: #212121;
 }
 
-.filters-link:hover,
-.filters-link:focus {
+.filters-button:hover,
+.filters-button:focus {
   color: #ffffff;
-}
-
-.filters-box:hover,
-.filters-box:focus {
   background-color: #2196f3;
 }
 
