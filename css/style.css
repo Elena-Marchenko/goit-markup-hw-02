@@ -163,6 +163,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #212121;
+  background: #f5f4fa;
 }
 
 .filters-button:hover,
