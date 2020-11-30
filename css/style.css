@@ -6,7 +6,54 @@ body {
   background-color: #fff;
 }
 
-/*Navigation*/
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+/* ========= Section ========= */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: burlywood;
+}
+/* ========= Header =========  */
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -15,11 +62,19 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
-  text-decoration: none;
 }
 
 .logo-blue {
   color: #2196f3;
+}
+
+.navigation-menu {
+  display: flex;
+  margin-left: 100px;
+}
+
+.navigation-menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .navigation-menu-link,
@@ -30,7 +85,6 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: #212121;
-  text-decoration: none;
 }
 
 .navigation-menu-link:hover,
@@ -52,7 +106,15 @@ body {
   color: #2196f3;
 }
 
-/* Hero */
+.header .address {
+  display: flex;
+  margin-left: auto;
+}
+.contacts:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* ========= Hero ========= */
 
 .hero-heading {
   font-family: 'Roboto', sans-serif;
@@ -73,7 +135,7 @@ body {
   background-color: #2196f3;
 }
 
-/* features */
+/* ========= features ========= */
 
 .visually-hidden {
   position: absolute;
@@ -104,7 +166,7 @@ body {
   color: #757575;
 }
 
-/* example */
+/* ========= example ========= */
 
 .example-headlines,
 .section-team-headlines {
@@ -115,7 +177,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* team */
+/* ========= team ========= */
 
 .team-name,
 .team-position {
@@ -130,7 +192,7 @@ body {
   color: #757575;
 }
 
-/* Footer */
+/* ========= Footer ========= */
 .footer-address,
 .footer-contacts {
   font-family: 'Roboto', sans-serif;
@@ -138,10 +200,9 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .footer-address {
-  font-weight: normal;
+  font-style: normal;
 }
 
 /* .contact-address {
@@ -153,7 +214,7 @@ body {
 }
 */
 
-/*==========Студия=========*/
+/* ========= Студия ========= */
 
 .filters-button {
   font-family: 'Roboto', sans-serif;
@@ -161,7 +222,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: #212121;
   background: #f5f4fa;
 }
